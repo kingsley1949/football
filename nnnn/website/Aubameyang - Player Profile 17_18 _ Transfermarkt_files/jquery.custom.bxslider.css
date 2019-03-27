@@ -1,0 +1,345 @@
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: none;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: none;
+}
+
+/* slider header sidebar*/
+/*.geruechteWettbewerbSlider-prev,
+.letzteTransfersWettbewerbSlider-prev,
+.tagessiegerSlider-prev,
+.geruechteVereinSlider-prev,
+.mitarbeiterVereinSlider-prev,
+.begegnungenVereinSlider-prev {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+}*/
+
+/*.geruechteWettbewerbSlider-next,
+.letzteTransfersWettbewerbSlider-next,
+.tagessiegerSlider-next,
+.geruechteVereinSlider-next,
+.mitarbeiterVereinSlider-next,
+.begegnungenVereinSlider-next {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+}*/
+
+/*.geruechteWettbewerbSlider-prev a,
+.letzteTransfersWettbewerbSlider-prev a,
+.tagessiegerSlider-prev a,
+.geruechteVereinSlider-prev a,
+.mitarbeiterVereinSlider-prev a,
+.begegnungenVereinSlider-prev a {
+	background: url(https://tmssl.akamaized.net/images/pfeil_left.png)no-repeat !important;
+	background-position: center center !important;
+	vertical-align: middle !important;
+	display: block !important;
+	height: 40px;
+	width: 33px;
+}*/
+
+/*.geruechteWettbewerbSlider-next a,
+.letzteTransfersWettbewerbSlider-next a,
+.tagessiegerSlider-next a,
+.geruechteVereinSlider-next a,
+.mitarbeiterVereinSlider-next a,
+.begegnungenVereinSlider-next a {
+	background: url(https://tmssl.akamaized.net/images/pfeil_right.png)no-repeat !important;
+	background-position: center center !important;
+	vertical-align: middle !important;
+	display: block !important;
+	height: 40px;
+	width: 33px;
+}*/
+
+/*.geruechteWettbewerbSlider-prev a:hover,
+.letzteTransfersWettbewerbSlider-prev a:hover,
+.tagessiegerSlider-prev a:hover,
+.geruechteVereinSlider-prev a:hover,
+.mitarbeiterVereinSlider-prev a:hover,
+.begegnungenVereinSlider-prev a:hover {
+	background: url(https://tmssl.akamaized.net/images/pfeil_left_white.png)no-repeat !important;
+	background-position: center center !important;
+	background-color: #1a3151 !important;
+}*/
+
+/*.geruechteWettbewerbSlider-next a:hover,
+.letzteTransfersWettbewerbSlider-next a:hover,
+.tagessiegerSlider-next a:hover,
+.geruechteVereinSlider-next a:hover,
+.mitarbeiterVereinSlider-next a:hover,
+.begegnungenVereinSlider-next a:hover {
+	background: url(https://tmssl.akamaized.net/images/pfeil_right_white.png)no-repeat !important;
+	background-position: center center !important;
+	background-color: #1a3151 !important;
+}*/
+
+.spielerGeburtstageSlider-prev,
+.geruechteWettbewerbSlider-prev,
+.letzteTransfersWettbewerbSlider-prev,
+.tagessiegerSlider-prev,
+.geruechteVereinSlider-prev,
+.mitarbeiterVereinSlider-prev,
+.begegnungenVereinSlider-prev,
+.trainerGeburtstageSlider-prev,
+.transfersHeuteSlider-prev {
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+}
+
+.spielerGeburtstageSlider-next,
+.geruechteWettbewerbSlider-next,
+.letzteTransfersWettbewerbSlider-next,
+.tagessiegerSlider-next,
+.geruechteVereinSlider-next,
+.mitarbeiterVereinSlider-next,
+.begegnungenVereinSlider-next,
+.trainerGeburtstageSlider-next,
+.transfersHeuteSlider-next {
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 40px;
+	overflow: hidden;
+}
+.spielerGeburtstageSlider-prev a,
+.geruechteWettbewerbSlider-prev a,
+.letzteTransfersWettbewerbSlider-prev a,
+.tagessiegerSlider-prev a,
+.geruechteVereinSlider-prev a,
+.mitarbeiterVereinSlider-prev a,
+.begegnungenVereinSlider-prev a,
+.trainerGeburtstageSlider-prev a,
+.transfersHeuteSlider-prev a {
+	display: block !important;
+	height: 40px;
+	width: 33px;
+	padding-top: 9px;
+	padding-left: 10px;
+}
+
+.spielerGeburtstageSlider-prev a:after,
+.trainerGeburtstageSlider-prev a:after,
+.geruechteWettbewerbSlider-prev a:after,
+.letzteTransfersWettbewerbSlider-prev a:after,
+.tagessiegerSlider-prev a:after,
+.geruechteVereinSlider-prev a:after,
+.mitarbeiterVereinSlider-prev a:after,
+.begegnungenVereinSlider-prev a:after,
+.transfersHeuteSlider-prev a:after {
+	display: block !important;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 12px 11px 0;
+	border-color: transparent #00aeed transparent transparent;
+	content: '';
+}
+
+.spielerGeburtstageSlider-next a,
+.trainerGeburtstageSlider-next a,
+.geruechteWettbewerbSlider-next a,
+.letzteTransfersWettbewerbSlider-next a,
+.tagessiegerSlider-next a,
+.geruechteVereinSlider-next a,
+.mitarbeiterVereinSlider-next a,
+.begegnungenVereinSlider-next a,
+.transfersHeuteSlider-next a {
+	display: block !important;
+	height: 40px;
+	width: 33px;
+	padding-top: 9px;
+	padding-left: 11px;
+}
+
+.spielerGeburtstageSlider-next a:after,
+.trainerGeburtstageSlider-next a:after,
+.geruechteWettbewerbSlider-next a:after,
+.letzteTransfersWettbewerbSlider-next a:after,
+.tagessiegerSlider-next a:after,
+.geruechteVereinSlider-next a:after,
+.mitarbeiterVereinSlider-next a:after,
+.begegnungenVereinSlider-next a:after,
+.transfersHeuteSlider-next a:after {
+	display: block !important;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 0 11px 12px;
+	border-color: transparent transparent transparent #00aeed;
+	content: '';
+}
+
+.spielerGeburtstageSlider-prev a:hover:after,
+.trainerGeburtstageSlider-prev a:hover:after,
+.geruechteWettbewerbSlider-prev a:hover:after,
+.letzteTransfersWettbewerbSlider-prev a:hover:after,
+.tagessiegerSlider-prev a:hover:after,
+.geruechteVereinSlider-prev a:hover:after,
+.mitarbeiterVereinSlider-prev a:hover:after,
+.begegnungenVereinSlider-prev a:hover:after,
+.transfersHeuteSlider-prev a:hover:after {
+	border-color: transparent #333 transparent transparent;
+}
+
+.spielerGeburtstageSlider-next a:hover:after,
+.trainerGeburtstageSlider-next a:hover:after,
+.geruechteWettbewerbSlider-next a:hover:after,
+.letzteTransfersWettbewerbSlider-next a:hover:after,
+.tagessiegerSlider-next a:hover:after,
+.geruechteVereinSlider-next a:hover:after,
+.mitarbeiterVereinSlider-next a:hover:after,
+.begegnungenVereinSlider-next a:hover:after,
+.transfersHeuteSlider-next a:hover:after {
+	border-color: transparent transparent transparent #333;
+}
+
+.schuhSlider-prev {
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 28px;
+	overflow: hidden;
+}
+
+.schuhSlider-next {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	width: 10%;
+	float: left;
+	text-align: center;
+	height: 28px;
+	overflow: hidden;
+}
+
+.schuhSlider-prev a {
+	background: url(https://tmssl.akamaized.net/images/pfeil_left.png)no-repeat !important;
+	background-position: center center !important;
+	vertical-align: middle !important;
+	display: block !important;
+	height: 28px;
+	width: 33px;
+}
+
+.schuhSlider-next a {
+	background: url(https://tmssl.akamaized.net/images/pfeil_right.png)no-repeat !important;
+	background-position: center center !important;
+	vertical-align: middle !important;
+	display: block !important;
+	height: 28px;
+	width: 33px;
+}
+
+.schuhSlider-prev a:hover {
+	background: url(https://tmssl.akamaized.net/images/pfeil_left_white.png)no-repeat !important;
+	background-position: center center !important;
+	background-color: #1a3151 !important;
+}
+
+.schuhSlider-next a:hover {
+	background: url(https://tmssl.akamaized.net/images/pfeil_right_white.png)no-repeat !important;
+	background-position: center center !important;
+	background-color: #1a3151 !important;
+}
+
+div.liveticker-startseite span.day-next {
+	margin-right: 0px
+}
+
+div.liveticker-startseite span.day-prev {
+	margin-left: 0px;
+}
+
+.day-prev {
+	float: left;
+	text-align: center;
+	height: 28px;
+	overflow: hidden;
+	margin-left: -10px;
+}
+.live-head {
+	float: left;
+	width: calc(100% - 66px);
+}
+.wph {
+	float: left;
+	width: calc(100% - 46px);
+}
+.day-next {
+	float: right;
+	text-align: center;
+	height: 28px;
+	overflow: hidden;
+	margin-right: -10px;
+}
+.day-prev a{
+	display: block !important;
+	height: 40px;
+	width: 33px;
+	padding-top: 4px;
+	padding-left: 13px;
+}
+.day-prev a:after {
+	display: block !important;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 12px 11px 0;
+	border-color: transparent #00aeed transparent transparent;
+	content: '';
+}
+.day-next a {
+	display: block !important;
+	height: 40px;
+	width: 33px;
+	padding-top: 4px;
+	padding-left: 8px;
+}
+.day-next a:after {
+	display: block !important;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 0 11px 12px;
+	border-color: transparent transparent transparent #00aeed;
+	content: '';
+}
+
+
+.day-prev a:hover:after {
+	border-color: transparent #333 transparent transparent;
+}
+
+.day-next a:hover:after {
+	border-color: transparent transparent transparent #333;
+}
+
+.datumstext-prev {
+	float:left;
+	margin: 10px 5px 0px -5px;
+}
+
+.datumstext-next {
+	float:right;
+	margin: 10px -5px 0px 5px;
+}

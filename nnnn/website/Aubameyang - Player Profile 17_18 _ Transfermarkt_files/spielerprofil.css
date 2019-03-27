@@ -1,0 +1,1743 @@
+.watchlistButtonClass  {
+    width: 35px;
+    cursor: pointer;
+}
+.box .erfolge {
+    padding:0 0;
+    text-align:left;
+}
+
+.box .erfolge img {
+    vertical-align:text-top;
+    margin-right:7px;
+    margin-top:-4px;
+}
+
+.box .erfolge span {
+    font-size:14px;
+}
+
+.erfolge .erfolg {
+    float:left;
+    padding:9px 10px 6px 10px;
+    text-align:center;
+    border-right:1px solid #ddd;
+    font-size:16px;
+}
+
+.erfolge .verknuepfungen {
+    float:right;
+    padding:5px 10px 14px 10px;
+    text-align:center;
+    border-left:1px solid #ddd;
+    font-size:16px;
+}
+
+.box .marktwert {
+    float:right;
+    padding:15px 0 0 0;
+    width:21%;
+    font-size:20px;
+    text-align:center;
+    line-height:1.1;
+    color:#ccc;
+    border-left:1px solid #ddd;
+    font-family: OSB;
+    white-space: nowrap;
+    height:130px;
+}
+
+.box .marktwert a:hover {
+    text-decoration:none;
+}
+
+.box .marktwert span {
+    font-size:54px;
+    color: #333 !important;
+}
+
+.box .marktwert a {
+    font-size:54px;
+    color: #333 !important;
+}
+
+.box .marktwert .waehrung {
+    font-size: 30px !important;
+}
+
+.box .marktwert .waehrung {
+    font-size: 30px !important;
+}
+
+.box  .marktwert .aenderung {
+    font-size:13px;
+}
+
+.box .aktueller-marktwert a:hover {
+    text-decoration:none;
+}
+
+.box .aktueller-marktwert span {
+    font-size:54px;
+    color: #333 !important;
+    padding-left:10px;
+}
+
+.box .aktueller-marktwert a {
+    font-size:54px;
+    color: #333 !important;
+}
+
+.box .aktueller-marktwert .waehrung {
+    font-size: 30px !important;
+}
+
+.premiumfotoSlider {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    height:auto;
+    max-width:100%;
+}
+
+.premium-profil {
+    height:290px;
+}
+
+.premium-profil-daten {
+    float:left;
+    width:24%;
+    height:100%;
+    border-right:1px solid #ddd;
+}
+
+.premium-profil-foto-box {
+    float:left;
+    max-width:513px;
+    width:76%;
+    border:1px solid #fff;
+    position:relative;
+}
+
+.premium-profil-foto {
+    width:100%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:288px;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+.premium-profil-text {
+    height:25%;
+    padding:11px 0 11px 10px;
+    font-size:12px;
+    line-height:1.5;
+    border-top:1px solid #ddd;
+}
+
+.premium-profil-text a {
+    font-size:14px;
+    font-weight:bold;
+}
+
+.premium-profil-text:first-child {
+    border-top:0;
+}
+.premium-profil-buttons {
+    position:absolute;
+    right:2%;
+    top:2%;
+    background-image: none;
+    border:0;
+    text-align:center;
+    z-index:55;
+}
+
+.premium-profil-buttons img {
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.premium-profil-buttons img:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.premium-profil-quelle {
+    position:absolute;
+    left:0;
+    bottom:0;
+    border:0;
+    text-align:center;
+    z-index:55;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0 4px;
+    font-size: 10px;
+}
+
+.premium-profil-marktwert {
+    position:absolute;
+    right:0;
+    top:50%;
+    min-width:220px;
+    font-weight:bold;
+    font-size:45px;
+    padding:10px;
+    background-image: url('../images/transparent80.png');
+    border:1px solid #fff;
+    color:#1d75a3;
+    text-align:center;
+    border-right:0;
+    z-index:55;
+}
+
+.spielerprofil-slider {
+    width:100%;
+    position:relative;
+    height:200px;
+}
+
+.slider-button-left {
+    float:left;
+    width:5%;
+    background-color:#f2f2f2;
+    border-right:1px solid #ddd;
+    height:100%;
+    padding:2px;
+    background-image: url('../images/pfeil_left.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.slider-button-right {
+    float:right;
+    width:5%;
+    background-color:#f2f2f2;
+    border-left:1px solid #ddd;
+    height:100%;
+    padding:2px;
+    background-image: url('../images/pfeil_right.png');
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.spielerprofil-slider-center {
+    float:left;
+    height:100%;
+    text-align:center;
+    width:90%;
+    padding:10px;
+}
+
+.spielerprofil-slider-center .content {
+    position:relative;
+    width:100%;
+    z-index:1;
+    text-align: center;
+}
+
+
+.spielerprofil-slider-center .akt-spieler {
+    margin:0 auto;
+    margin-top:10px;
+    text-align:center;
+    line-height:1.0;
+    max-width:100px;
+}
+
+.spielerprofil-slider-center .prev-spieler {
+    position:absolute;
+    width:25%;
+    height:50%;
+    max-width:90px;
+    top:15%;
+    left:6%;
+    opacity: 0.4;
+    line-height:1.0;
+    z-index:-1;
+}
+
+.spielerprofil-slider-center .next-spieler {
+    position:absolute;
+    width:25%;
+    height:50%;
+    max-width:90px;
+    top:15%;
+    right:6%;
+    opacity: 0.4;
+    line-height:1.0;
+    z-index:-1;
+}
+
+.spielerprofil-slider-center img {
+    border:1px solid #fff;
+}
+
+.spielerprofil-slider-center .akt-spieler .text {
+    width:100px;
+    height:25px;
+    background-color:#1D75A3;
+    margin:0 auto;
+    color:#fff;
+    margin-top:-2px;
+    border:1px solid #1D75A3;
+    border-top:0;
+    font-weight:bold;
+    line-height:1.0;
+    padding-top:1px !important;
+}
+
+.spielerprofil-slider-center .prev-spieler .text, .spielerprofil-slider-center .next-spieler .text {
+    width:100%;
+    background-color:#1D75A3;
+    margin:0 auto;
+    color:#fff;
+    padding:2px 0;
+    margin-top:-2px;
+    font-size:10px;
+    border:1px solid #fff;
+    border-top:0;
+    font-weight:bold;
+    padding-top:1px !important;
+}
+
+.quadratisches-spielerbild {
+    margin:3px 5px 0 0;
+    width:28px;
+    height:28px;
+    float:left;
+    background-size:40px 52px;
+    background-position:center;
+    border:1px solid #ccc;
+}
+
+/* spielerstationen Start */
+.spielerstationen {
+    clear: both;
+    margin: 0;
+    height: 46px;
+}
+
+.spielerstationen-border {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.spielerstationen-border-fff {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.spielerstationen-border-fff-ddd {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.spielerstationen-border-ddd-fff {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+}
+
+.spielerstationen .station-wappen img {
+    vertical-align: middle;
+}
+
+.spielerstationen .station-verein img {
+    margin-right: 5px;
+}
+
+.spielerstationen span {
+    float: left;
+    display: block;
+    height: 45px;
+    line-height: 43px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.spielerstationen .station-saison {
+    background-color: #ddd;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 2px solid #fff;
+    padding: 0 10px;
+    min-width: 50px;
+    text-align:center;
+}
+
+.spielerstationen .station-wappen {
+    text-align: center;
+    min-width: 40px;
+}
+
+.spielerstationen .station-verein {
+    line-height: 18px;
+    padding-top: 5px;
+}
+
+.spielerstationen .station-abloese {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+}
+
+.spielerstationen .station-marktwert {
+    float: right;
+    text-align: right;
+    color: #888;
+}
+
+.spielerstationen .station-details {
+    float: right;
+    text-align: center;
+    min-width: 45px;
+}
+
+.spielerstationen .zweizeilig {
+    line-height: 18px;
+    padding-top: 5px;
+}
+
+.spielerstationen-headline {
+    font-weight:bold;
+    background-color: #d2e3ed;
+    padding: 5px 3px;
+    border-bottom: 1px solid #fff;
+    height: 23px;
+}
+
+.spielerstationen-headline-marktwert {
+    float: right;
+    text-align: right;
+}
+
+.spielerstationen-headline-details {
+    float: right;
+    text-align: center;
+    min-width: 45px;
+}
+
+.spielerstationen-headline-text {
+    float: left;
+}
+
+.spielerstationen-headline-abloese {
+    float: right;
+    min-width: 120px;
+    text-align: right;
+}
+
+.spielerstationen-footer {
+    font-weight:bold;
+    background-color: #f2f2f2;
+    padding: 5px 3px;
+    border-top: 1px solid #ddd;
+    height: 23px;
+    text-align:right;
+}
+
+.spielerstationen-footer-details {
+    float: right;
+    text-align: right;
+    min-width: 45px;
+}
+
+.spielerstationen-footer-text {
+    float: right;
+    text-align: right;
+}
+/* spielerstationen Ende */
+
+.detailpositionen {
+    padding: 0 2px 2px 2px;
+}
+
+.detailpositionen .feld {
+    margin-top: 3px;
+}
+
+.marktwertentwicklung {
+    padding: 0;
+}
+
+.marktwertentwicklung .vb {
+    vertical-align: middle;
+}
+
+.marktwertentwicklung .highcharts-container svg {
+    height: 165px;
+}
+
+.weitere-daten-spielerprofil .blauerbalken {
+    background: #d2e3ed;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 10px 4px 10px;
+}
+.weitere-daten-spielerprofil .blauerbalken span {
+    font-weight: bold;
+}
+
+.spielerdatenundfakten .blauerbalken {
+    background: #d2e3ed;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 10px 4px 10px;
+}
+.spielerdatenundfakten .blauerbalken span {
+    font-weight: bold;
+}
+
+.weitere-daten-spielerprofil div.hauptposition-center  {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    min-height: 65px;
+    padding: 14px 4px;
+    margin-top: 33px;
+}
+
+.weitere-daten-spielerprofil div.hauptposition-left {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    min-height: 65px;
+    padding: 14px 4px;
+}
+
+.weitere-daten-spielerprofil div.nebenpositionen {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    min-height: 70px;
+    padding: 0px 4px;
+}
+
+.weitere-daten-spielerprofil span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.marktwertentwicklung div.zeile-oben {
+    height: 30px;
+    border-top: 1px solid #fff;
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
+
+.marktwertentwicklung div.zeile-mitte {
+    height: 30px;
+    border-top: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+.marktwertentwicklung div.zeile-unten {
+    height: 45px;
+    border-top: 1px solid #fff;
+    margin-bottom: 2px;
+}
+
+.marktwertentwicklung div.left-td {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.marktwertentwicklung div.right-td {
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.marktwertentwicklung div span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.highcharts-container {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.spieleralter, th.spielerprofil-head-aktueller-verein, td.spielerprofil-head-aktueller-verein {
+    display: none;
+}
+
+
+.highcharts-container svg {
+    margin: 0 -15px;
+    width: auto;
+    padding: 0 10px;
+
+}
+
+.wechsel-anzeige-spielerprofil {
+    float: left;
+    position: relative;
+    padding: 6px 10px 4px 10px;
+    border-left: 1px solid #ddd;
+    box-shadow: inset 0 0 8px rgba(100,100,100,0.5);
+    -webkit-box-shadow: inset 0 0 8px rgba(100,100,100,0.5);
+    -moz-box-shadow: inset 0 0 8px rgba(100,100,100,0.5);
+}
+
+.wechsel-anzeige-spielerprofil .wechsel-symbol {
+    position: absolute;
+    top: 13px;
+    left: -8px;
+    right: 0;
+    max-width: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #watchlistInfo h1#watchlistNoticeHeadline {
+        font-size: 18px !important;
+        padding-bottom: 7px !important;
+        line-height: 26px !important;
+    }
+    #addToWatchlistContent .doppelpfeil-link {
+        float: left !important;
+    }
+    .dataBildWatchlistInfo img {
+        height: 100px;
+        margin-left: 10px;
+        width: auto !important;
+    }
+    .rueckennummer-profil {
+        padding: 8px 2px 8px 2px;
+        width: 40px;
+    }
+
+    .spielername-profil {
+        padding: 10px 4px 0 4px;
+        font-size: 20px;
+        text-align: center;
+        width: auto;
+    }
+
+    .icons-profil .wappen {
+        padding: 6px 6px 4px 6px;
+    }
+
+    .marktwertentwicklung div span.kein-thread {
+        font-weight: bold;
+        font-size: 14px;
+        padding-right: 22px;
+    }
+
+    .detailpositionen .feld {
+        margin: 7px 0 0 0;
+    }
+
+    .detailpositionen {
+        padding: 0 2px 7px 2px;
+    }
+
+    .weitere-daten-spielerprofil .infos {
+        background: #f2f2f2;
+    }
+
+    .weitere-daten-spielerprofil div.hauptposition-left {
+        border-top: 1px solid #fff;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: bold;
+        text-align: center;
+        width: 50%;
+        min-height: 65px;
+        float: left;
+        padding: 4px;
+    }
+
+    .weitere-daten-spielerprofil div.hauptposition-center {
+        border-top: 1px solid #fff;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        min-height: 65px;
+        padding: 12px 4px 0 4px;
+        margin-top: 0;
+    }
+
+    .weitere-daten-spielerprofil div.nebenpositionen {
+        border-left: 1px solid #fff;
+        border-top: 1px solid #fff;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        width: 50%;
+        min-height: 65px;
+        float: left;
+        padding: 4px;
+    }
+
+    .weitere-daten-spielerprofil span {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .weitere-daten-spielerprofil .detailpositionen .feld {
+        left: 50%;
+        margin-left: -88.5px;
+        float: none;
+        display: inline-block;
+    }
+
+    .marktwertentwicklung .marktwertentwicklung-graph {
+        padding:5px 10px 10px 10px !important;
+    }
+
+    .marktwertentwicklung div.zeile-oben {
+        height: 20px;
+        border-top: 1px solid #fff;
+        margin-bottom: 1px;
+        margin-top: 0;
+    }
+
+    .marktwertentwicklung div.zeile-mitte {
+        height: 20px;
+        margin-bottom: 1px;
+        border-top: 0;
+    }
+
+    .marktwertentwicklung div.zeile-unten {
+        height: 45px;
+        border-top: 0;
+        margin-bottom: 0;
+    }
+
+    .marktwertentwicklung div.left-td {
+        background: #f2f2f2;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: left;
+        width: 60%;
+        height: 20px;
+        float: left;
+        padding-left: 10px;
+        white-space: nowrap;
+    }
+
+    .marktwertentwicklung div.right-td {
+        background: #f2f2f2;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: right;
+        width: 40%;
+        height: 20px;
+        float: left;
+        padding-right: 10px;
+        padding-left: 0;
+        white-space: nowrap;
+    }
+
+    .marktwertentwicklung div.zeile-unten div.left-td, .marktwertentwicklung div.zeile-unten div.right-td {
+        height: 40px;
+    }
+
+    .marktwertentwicklung div.zeile-unten div.right-td span {
+        display: block;
+        text-align: right;
+    }
+
+    .marktwertentwicklung div span {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        text-align: left;
+    }
+
+    .spieleralter {
+        display: inline-block;
+    }
+
+    th.spielerprofil-head-aktueller-verein, td.spielerprofil-head-aktueller-verein  {
+        display: table-cell;
+    }
+
+    .spielerstationen span {
+        padding: 0 5px 0 0;
+        max-width: 100px;
+        white-space: nowrap;
+    }
+
+    .spielerstationen .station-verein {
+        max-width: 143px;
+        white-space: nowrap;
+    }
+
+    .highcharts-container svg {
+        margin: 0 -15px;
+        width: auto;
+        padding: 0 15px;
+    }
+}
+
+.schuhintegration {
+    height:150px;
+}
+
+.schuh-slider {
+    height: 30px;
+}
+.schuh-title img {
+    margin: 2px 0 0 2px;
+}
+.schuh-title {
+    float:left;
+    width:80%;
+    border-bottom:1px solid #ddd;
+    height:28px;
+    font-size:16px;
+    padding:5px;
+    text-align:center;
+    display:inline-block;
+    font-family: OSL;
+    font-weight:bold;
+    color: #333 !important;
+}
+
+.schuh-slider .ohne-slider {
+    width:100%;
+}
+.transferbilanz {
+    padding:10px;
+}
+
+.transferbilanz .headline {
+    font-family: OSL;
+    font-size: 22px;
+    margin: 5px 0;
+    clear: both;
+}
+.transferbilanz .icon {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.transferbilanz .icon img {
+    width: 65px;
+    height: 65px;
+}
+
+.transferbilanz .text {
+    float: left;
+    line-height: 1.5;
+    padding-top: 7px;
+}
+
+.transferbilanz .text span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1225px) and (min-width: 768px) {
+    .transfer-einnahmen-ausgaben {
+        width: 100%;
+    }
+    .transferbilanz .icon img {
+        margin-top: 12px;
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .transferbilanz .icon img {
+        margin-top: 12px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+.dataHeader {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.dataMain {
+    height: 175px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    background-image: linear-gradient(to bottom, #fff 0%, #333 50%);
+}
+
+.dataTop {
+    background-color:rgba(255, 255, 255, 0.8);
+    height:100%;
+}
+
+.dataName {
+    padding: 10px 12px;
+    color: #1a3151;
+    font-family: OSL;
+}
+.dataName h1 {
+    font-size: 38px;
+    display: inline-block;
+    color: #1a3151;
+    font-family: OSL;
+    font-weight: normal;
+    margin: 0;
+}
+.dataName h1 b {
+    font-size: 38px;
+    display: inline-block;
+    color: #1a3151;
+    font-family: OSL;
+}
+
+.dataRN {
+    font-weight: bold;
+}
+
+.dataCaptain {
+    -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 1));
+}
+
+.dataErfolge {
+    padding-left: 152px;
+    padding-top: 20px;
+}
+
+.dataErfolg {
+    height:80px;
+    position:relative;
+    display:inline-block;
+    float:left;
+    margin-left:18px;
+    min-width:45px;
+}
+
+.dataErfolgImage {
+    -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 1));
+}
+
+.dataErfolgAnzahl {
+    height:30px;
+    width:30px;
+    border:2px solid #fff;
+    background-color:#00aded;
+    position: absolute;
+    bottom: -4px;
+    right:-4px;
+    border-radius: 25px;
+    line-height: 25px;
+    font-family: OSL;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size:18px;
+    z-index: 4;
+}
+
+.dataErfolgLand {
+    position: absolute;
+    bottom: -5px;
+    right: 19px;
+    z-index: 3;
+    display: none;
+}
+
+.dataErfolgLand img {
+    border: 1px solid #fff;
+}
+
+.dataErfolgMore {
+    position: absolute;
+    bottom: -2px;
+    left: -4px;
+    -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 1));
+}
+
+.dataContent {
+    height: 80px;
+    background-color:#fff;
+}
+
+.dataBottom {
+    padding-left:150px;
+    padding-top: 12px;
+}
+
+.dataDaten {
+    float:left;
+    line-height:1.6;
+    padding-left:20px;
+}
+
+.dataDaten .dataItem {
+
+}
+
+.dataDaten .dataValue {
+    font-weight: bold;
+}
+
+.dataDaten p {
+    margin-bottom: 0;
+}
+
+.dataDaten .flaggenrahmen {
+    margin: 0 2px;
+}
+
+.dataBild {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.dataBild .bildquelle {
+    margin-top: -10px;
+}
+
+.dataZusatzbox {
+    padding:8px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: 1px solid #ddd;
+    background-color:rgba(255, 255, 255, 0.8);
+    width:320px;
+    height:116px;
+}
+
+.dataZusatzImage {
+    float:left;
+}
+
+.dataZusatzDaten {
+    float:left;
+    line-height:1.5;
+    padding-left:15px;
+    max-width: 200px;
+}
+
+.dataZusatzDaten .hauptpunkt {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 185px;
+    height: 23px !important;
+}
+
+.dataZusatzDaten .mediumpunkt {
+    font-size: 12px;
+    font-weight:bold;
+    text-overflow: ellipsis-word;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    display: inline-block;
+    line-height: 1.2;
+    padding: 0;
+}
+.dataZusatzDaten .dataItem {
+
+}
+.dataZusatzDaten .dataValue {
+    font-weight: bold;
+}
+
+.dataZusatzDaten .flaggenrahmen {
+    margin: 0 2px;
+}
+
+.dataMarktwert {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #ddd;
+    background-color: #00aded;
+    padding: 5px 25px;
+    color: #fff;
+    font-size:30px;
+    font-family: OSL;
+    box-shadow: inset 0 0 50px rgba(49,79,119,0.5);
+    min-width: 230px;
+    text-align: right;
+}
+
+.dataMarktwert a {
+    color: #fff;
+    font-size: 62px;
+}
+
+.dataMarktwert a:hover {
+    text-decoration: none;
+}
+
+.dataMarktwert span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.dataMarktwert p {
+    line-height: 1.1;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-family: OSL;
+}
+
+.dataZusatzDaten .mediumpunkt img {
+    vertical-align: text-bottom;
+    margin-right: 2px;
+}
+
+.linkProfile {
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 4px 15px;
+    min-height: 80px;
+    font-size: 14px;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.dataProfile {
+
+    cursor: pointer;
+}
+
+.linkProfile:hover {
+    background-color: #f2f2f2;
+    text-decoration: none;
+
+}
+
+.dataProfileImage {
+    float:left;
+    padding-right:15px;
+}
+
+.dataProfileImage img {
+    height: 40px;
+}
+.dataProfileDaten {
+    float:left;
+    line-height:1.5;
+}
+
+.dataProfileDaten .hauptpunkt {
+    font-size: 18px;
+    font-weight:bold;
+}
+.dataProfile .mediumpunkt {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 3px 0 7px 0;
+}
+.dataProfileDaten .dataItem {
+
+}
+.dataProfileDaten .dataValue {
+    font-weight: bold;
+}
+
+.dataProfileDaten .flaggenrahmen {
+    margin: 0 2px;
+}
+.dataProfileDatenMobil {
+    display:none;
+}
+
+
+.dataRibbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 33;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
+
+.dataRibbon span {
+    font-size: 12px;
+    font-family: Calibri, Verdana,  sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: perspective(1px) rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    width: 100px;
+    display: block;
+    background: #00aded;
+    background: linear-gradient(#00aded 0%, #314f77 100%);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+.dataRibbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #314f77;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #314f77;
+}
+.dataRibbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #314f77;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #314f77;
+}
+
+.vergleichbarespieler {
+    padding: 10px;
+}
+
+.vergleichbarIcon {
+    height: 63px;
+    width: 93px;
+    float: left;
+    background: url('../images/icons/vergleiche_mit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.vergleichbarAktion {
+    height: 63px;
+    float: left;
+    width: 200px;
+}
+
+.vergleichbarAktion .button {
+    width: 100%;
+    margin-top: 2px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .notTablet {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .dataName h1, .dataName h1 b {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+    .dataHeader {
+        height: auto;
+        max-height: 290px;
+        min-height: 240px;
+        position: relative;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+    }
+    .forMobile {
+        display: inline-block;
+    }
+
+    .ohneMarktwert {
+        min-height: 205px !important;
+    }
+
+    .dataMain {
+        height: 100px;
+        background-color: #f2f2f2;
+        border-bottom: 1px solid #ddd;
+        background-image: linear-gradient(to bottom, #fff 0%, #333 50%);
+    }
+
+    .dataContent {
+        height: auto;
+        max-height: 200px;
+    }
+
+    .dataMarktwert {
+        top: 198px;
+        right: auto;
+        left: 3px;
+        bottom: auto;
+        padding: 2px 8px;
+        min-width: 114px;
+        width: 114px;
+        border:2px solid #fff;
+    }
+
+    .dataMarktwert a {
+        font-size: 24px;
+    }
+
+    .dataMarktwert span {
+        font-size: 16px;
+    }
+    .dataBild {
+        bottom: auto;
+        top: 53px;
+        left: 3px;
+        z-index: 4;
+    }
+    .dataBild img {
+        width: 110px;
+    }
+
+    .dataBild .bildquelle {
+        margin-top: -13px;
+    }
+
+    .dataBottom {
+        padding-left: 114px;
+        padding-top: 3px;
+    }
+
+    .dataDaten {
+        float:none;
+        line-height:1.6;
+        padding-left: 10px;
+    }
+
+    .dataZusatzbox {
+        padding: 7px 15px 1px 6px;
+        top: 50px;
+        right: auto;
+        padding-left: 122px;
+        left: 0;
+        width: auto;
+        width:100%;
+        height:49px;
+        z-index: 3;
+        background-color: #fff;
+        border: 0;
+    }
+
+    .dataZusatzImage {
+        width: 26px;
+        margin-top: 5px;
+    }
+
+    .dataZusatzDaten {
+        padding-left: 7px;
+        line-height: 1.3;
+        max-width: 140px;
+        max-height: 40px;
+        overflow: hidden;
+    }
+
+    .dataZusatzDaten .hauptpunkt {
+        font-size: 16px;
+    }
+    .dataZusatzDaten .mediumpunkt img {
+        display: none;
+    }
+    .dataZusatzDaten .mediumpunkt {
+        font-weight: normal;
+    }
+    .dataZusatzDaten .dataItem {
+        display: none;
+    }
+    .dataZusatzDaten .dataValue {
+        display: none;
+    }
+    .dataZusatzDaten .auchMobil {
+        display: inline-block !important;
+
+    }
+    .dataZusatzDaten .mediumpunkt img {
+        vertical-align: baseline;
+        margin-right: 2px;
+    }
+    .dataMarktwert p {
+        display: none;
+    }
+
+    .dataErfolge {
+        padding-left: 3px;
+        padding-top: 4px;
+        border: 1px solid #ddd;
+        height: 43px;
+        background-color: #fff;
+        border-top: 0;
+    }
+
+    .dataErfolg {
+        height: 32px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        min-width: 15px;
+        margin-right: 20px;
+    }
+
+    .dataErfolgImage {
+        -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 1));
+        height: 30px;
+    }
+
+    .dataErfolgAnzahl {
+        height:20px;
+        width:20px;
+        bottom: -3px;
+        right: -11px;
+        border-radius: 10px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .dataErfolgLand {
+        display: none;
+    }
+
+    .dataErfolgMore {
+        position: absolute;
+        bottom: -3px;
+        right: -4px;
+        margin-left: 5px;
+        -webkit-filter: drop-shadow(0px 0px 9px rgba(255, 255, 255, 1));
+    }
+
+    .linkProfile {
+        top: 198px;
+        right: auto;
+        left: 3px;
+        bottom: auto;
+        padding: 2px 2px;
+        min-width: 114px;
+        width: 114px;
+        border:2px solid #fff;
+        background-color: #f2f2f2;
+        min-height: 38px;
+        font-size: 14px;
+    }
+    .linkProfile:hover {
+        text-decoration: none;
+    }
+
+    .dataProfileImage {
+        display: none;
+    }
+
+    .dataProfileDaten {
+        display:none;
+    }
+    .dataProfileDatenMobil {
+        display: block;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .dataProfileDatenMobil .mediumpunkt {
+        font-size: 12px;
+
+    }
+    .dataProfile .mediumpunkt {
+        font-size: 12px;
+        margin: 2px 0;
+        font-weight: normal;
+    }
+}
+
+.dataRibbonRIP {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 33;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+    opacity: .8; filter:Alpha(Opacity=80)
+}
+
+.dataRibbonRIP span {
+    font-size: 11px;
+    font-family: OSL;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #000;
+    background: linear-gradient(#000 0%, #666 100%);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+
+.watchlistRibbon {
+    width: 26px;
+    position: absolute;
+    top:0;
+    right: 350px;
+    color: #fff;
+    padding: 12px 0 0;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.watchlistRibbon:before {
+    display: block;
+    width: 26px;
+    height: 0;
+    position: absolute;
+    top: 2px;
+    content: "";
+    border-top: 1px dotted rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+}
+
+.watchlistRibbon:after {
+    display: block;
+    width: 0;
+    height: 0;
+    content: "";
+    position: relative;
+    bottom: -10px;
+    z-index: 100;
+    border-width: 0 13px 10px 13px;
+    border-style: solid;
+}
+
+.watchlistRibbon.blue {
+    background-color: #008bbf;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#00aded), to(#008bbf));
+    background-image: -moz-linear-gradient(top, #00aded, #008bbf);
+    background-image: -ms-linear-gradient(top, #00aded, #008bbf);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #00aded), color-stop(100%, #008bbf));
+    background-image: -webkit-linear-gradient(top, #00aded 40%, #008bbf 100%);
+    background-image: -o-linear-gradient(top, #00aded, #008bbf);
+    background-image: linear-gradient(top, #00aded 40%, #008bbf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00aded', endColorstr='#008bbf', GradientType=0);
+}
+.watchlistRibbon.blue:after {
+    border-color: #008bbf #008bbf transparent #008bbf;
+}
+.watchlistRibbon.green {
+    background-color: #55a826;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#65D626), to(#55a826));
+    background-image: -moz-linear-gradient(top, #65D626, #55a826);
+    background-image: -ms-linear-gradient(top, #65D626, #55a826);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #65D626), color-stop(100%, #55a826));
+    background-image: -webkit-linear-gradient(top, #65D626 40%, #55a826 100%);
+    background-image: -o-linear-gradient(top, #65D626, #55a826);
+    background-image: linear-gradient(top, #65D626 40%, #55a826 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65D626', endColorstr='#55a826', GradientType=0);
+}
+.watchlistRibbon.green:after {
+    border-color: #55a826 #55a826 transparent #55a826;
+}
+span#watchlistButton {
+    cursor: pointer;
+}
+.dataBildWatchlistInfo {
+    border: 2px solid #fff;
+    float: left;
+    display: inline-block;
+
+}
+.dataBild .bildquelle {
+    margin-top: -12px;
+}
+
+.dataBildWatchlistInfo img {
+    width: 110px;
+}
+#watchlistInfo h1#watchlistNoticeHeadline {
+    float: left;
+    display: inline-block;
+    font-family: OSL;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 3px #00aded solid;
+    padding-bottom: 5px;
+}
+#watchlistInfo .spielername-head {
+    border-bottom: 3px #cccccc solid;
+    height: 36px;
+}
+#watchlistInfo span.wappen {
+    float: right;
+    display: inline-block;
+}
+#watchlistInfo div.trennbalken {
+    height: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #00aded;
+}
+#addToWatchlistContent .dataDaten {
+    float: none;
+    padding: 0;
+}
+#addToWatchlistContent .dataContent {
+    float: left;
+    height: auto;
+    max-width: 390px;
+    margin: 0 10px;
+}
+#addToWatchlistContent .dataBottom {
+    padding: 0;
+}
+#addToWatchlistContent .oberdaten {
+    float: left !important;
+}
+#addToWatchlistContent .mittleredaten {
+    float: left !important;
+}
+#addToWatchlistContent .unteredaten {
+    float: right !important;
+}
+#addToWatchlistContent .iradio_square-blue {
+    margin-top: -3px;
+}
+#addToWatchlistContent .dataContent {
+    max-height: 100%;
+}
+#addToWatchlistContent .doppelpfeil-link {
+    float: right;
+    margin-top: 15px;
+    padding-right: 14px;
+}
+#watchlistInfo {
+    padding: 15px;
+}
+input#deleteWatchlistButton, input#addWatchlistButton {
+    margin: 0;
+    background-color: transparent !important;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.addWatchlistButton {
+    background: #fff url('/images/add_plus.png');
+}
+.deleteWatchlistButton {
+    background: #fff url('/images/delete_watchlist.png');
+}
+.addWatchlistButton:focus, .deleteWatchlistButton:focus {
+    outline: #fff auto 0;
+    outline-color: #fff;
+    outline-style: auto;
+    outline-width: 0;
+}
+.aussprache {
+    margin: 10px;
+    height: 30px;
+}
+
+.aussprache audio {
+    float:left;
+    width:80%;
+}
+
+.aussprache span {
+    height:30px;
+    display: inline-box;
+    float:left;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.min-height-audio {
+    min-height: 415px;
+}
+
+@media only screen and (max-width: 481px) {
+    .weitere-daten-spielerprofil {
+        border-left: 0;
+        border-top: 1px solid #ddd;
+        height: auto;
+    }
+    .spielerdaten {
+        border-right: 0;
+        min-height: initial;
+    }
+}

@@ -1,0 +1,430 @@
+.beliebtheit-vote .reload {
+    float: right;
+}
+
+.beliebtheit-wahl-verein, .beliebtheit-wahl-spieler {
+    display: inline-block;
+    width: 41%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px 0 5px 0;
+    color: #fff;
+    position: absolute;
+    top: 56px;
+}
+
+.beliebtheit-wahl-verein.beliebtheit-wahl-heim, .beliebtheit-wahl-spieler.beliebtheit-wahl-heim {
+    left: 3%;
+}
+
+.beliebtheit-wahl-verein.beliebtheit-wahl-gast, .beliebtheit-wahl-spieler.beliebtheit-wahl-gast {
+    right: 3%;
+}
+
+.beliebtheit-wahl-verein *, .beliebtheit-wahl-spieler * {
+    display: block;
+    margin: auto;
+}
+
+.beliebtheit-wahl-verein > img {
+    height: 80px;
+    margin-bottom: 10px;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 1));
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 1));
+}
+
+.beliebtheit-wahl-verein > img.flaggenrahmen {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.beliebtheit-wahl-spieler > img {
+    height: 80px;
+    width: 62px;
+    margin-bottom: 10px;
+}
+
+.beliebtheit-wahl-spieler .bildquelle {
+    position: absolute;
+    top: 90px;
+    width: 62px;
+}
+
+.beliebtheit-wahl-spieler.beliebtheit-wahl-heim .bildquelle {
+    left: 50%;
+    margin-left: -31px;
+}
+
+.beliebtheit-wahl-spieler.beliebtheit-wahl-gast .bildquelle {
+    right: 50%;
+    margin-right: -31px;
+}
+
+.beliebtheit-wahl-spieler .beliebtheit-wahl-spieler-wappen img {
+    height: auto;
+    position: absolute;
+    top: 7px;
+}
+
+.beliebtheit-wahl-spieler.beliebtheit-wahl-heim .beliebtheit-wahl-spieler-wappen img {
+    left: 50%;
+    margin-left: -44px;
+}
+
+.beliebtheit-wahl-spieler.beliebtheit-wahl-gast .beliebtheit-wahl-spieler-wappen img {
+    right: 50%;
+    margin-right: -44px;
+}
+
+.beliebtheit-rangliste .box-header, .beliebtheit-eigene-rangliste .box-header {
+    border-bottom: 0;
+    min-height: 37px;
+}
+
+.beliebtheit-rangliste .content, .beliebtheit-eigene-rangliste .content {
+    border-top: 1px solid #ddd;
+}
+
+.beliebtheit-typ-auswahl {
+    margin: 4px 0 14px 0!important;
+}
+
+.beliebtheit-typ-auswahl a {
+    width: 40%;
+    display: table-cell;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+}
+
+.beliebtheit-typ-auswahl a:hover, .beliebtheit-typ-auswahl a.aktiv {
+    background-color: #00aded;
+    color: #fff;
+}
+
+.homeContent .box.beliebtheit-vote .header, .homeContent .box.beliebtheit-vote .header h2 {
+    background-color: #1a3151;
+    color: #fff;
+}
+
+.homeContent .box.beliebtheit-vote .content {
+    height: 197px;
+}
+
+.box.beliebtheit-vote .content, .beliebtheit-verein .content {
+    white-space: nowrap;
+    text-align: center;
+    background: url(https://tmssl.akamaized.net/images/beliebtheit/vote_bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    height: 190px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box.beliebtheit-vote.beliebtheit-vote-spieler .content, .beliebtheit-verein.beliebtheit-spieler .content {
+    /* background-image: url(https://tmssl.akamaized.net/images/beliebtheit/vote_bg_spieler.jpg);  */
+}
+
+.box.beliebtheit-vote .content p {
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.box.beliebtheit-vote .content p.beliebtheit-text {
+    padding: 10px 0;
+    margin: 0 0 19px 0;
+    line-height: 20px;
+    font-size: 20px;
+    white-space: normal;
+}
+
+.beliebtheit-vote-ergebnis {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0 30px 0 30px;
+    position: relative;
+    height: 26px;
+}
+
+.beliebtheit-vote-ergebnis span {
+    display: inline-block;
+    overflow: hidden;
+    height: 24px;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 84%;
+    min-width: 16%;
+    width: 0%;
+}
+
+.beliebtheit-vote-ergebnis-wappen {
+    position: absolute;
+    top: -1px;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.beliebtheit-vote-ergebnis-wappen img {
+    vertical-align: middle;
+}
+
+.beliebtheit-vote-ergebnis-wappen:first-of-type {
+    left: 0;
+}
+
+.beliebtheit-vote-ergebnis-wappen:last-of-type {
+    right: 0;
+}
+
+.beliebtheit-vote-heim {
+    text-align: right;
+    float: left;
+}
+
+.beliebtheit-vote-gast {
+    text-align: left;
+    float: right;
+}
+
+.beliebtheit-vote-neue-runde {
+    margin-top: 5px;
+    font-size: 18px;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 1px #1a3151, -1px -1px #1a3151, 1px -1px #1a3151, -1px 1px #1a3151;
+}
+
+.beliebtheit-versus {
+    height: 35px;
+    margin-top: 20px;
+}
+
+.beliebtheit_filter .content {
+    height: 190px;
+}
+
+.beliebtheit-rangliste .content {
+    padding-top: 0;
+}
+
+#beliebtheit_filter .chzn-container {
+    margin-bottom: 2px;
+}
+
+#beliebtheit_filter .iradio_square-blue {
+    clear: none;
+    float: none;
+}
+
+.beliebtheit-lieblingsverein {
+    margin-top: 14px!important;
+}
+
+#beliebtheit-grid, #beliebtheit-eigene-grid {
+    width: 100%;
+}
+
+#beliebtheit-grid img, #beliebtheit-eigene-grid img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.beliebtheit-grid-spielerfoto {
+    margin-top: -4px;
+}
+
+.beliebtheit-verein img {
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 1));
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 1));
+    height: 120px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.beliebtheit-verein img.beliebtheit-index-portrait {
+    width: 100px;
+    height: 130px;
+    top: 30px;
+}
+
+.beliebtheit-verein .beliebtheit-person-vereinswappen img {
+    -webkit-filter: none;
+    filter: none;
+    width: 40px;
+    height: 40px;
+    margin-top: -25px;
+    margin-left: 80px;
+}
+
+.beliebtheit-verein-index {
+    font-size: 28px;
+    line-height: 28px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 45px;
+    right: 10px;
+    color: #fff;
+    text-shadow: 1px 1px #1a3151, -1px -1px #1a3151, 1px -1px #1a3151, -1px 1px #1a3151;
+}
+
+.beliebtheit-verein-index-zahl {
+    font-size: 80px;
+    line-height: 80px;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    color: #1a3151;
+    text-shadow: 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.beliebtheit-verein-index-info {
+    font-size: 10px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.box.beliebtheit-verein-link {
+    font-size: 18px;
+    height: 42px;
+    line-height: 40px;
+    font-family: OSL;
+    position: relative;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+.beliebtheit-verein-link-wappen img {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+}
+
+.beliebtheit-verein-link-wappen img.bilderrahmen {
+    top: 0;
+    margin-left: 5px;
+    margin-top: 0;
+    height: 40px;
+    width: 31px;
+    position: absolute;
+    left: 5px;
+}
+
+.beliebtheit-verein-link a {
+    background: url(https://tmssl.akamaized.net/images/pfeil_rechts_grau.png) right center no-repeat;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 20px;
+    position: relative;
+    display: block;
+    padding-left: 100px;
+}
+
+.beliebtheit-verein-link a:hover {
+    text-decoration: none;
+    color: #00aded;
+    background: url(https://tmssl.akamaized.net/images/pfeil_rechts_blau.png) right center no-repeat;
+}
+
+.beliebtheit-lieblingsverein-wappen {
+    box-shadow: inset 0 0 8px #f8a7a3;
+    -webkit-box-shadow: inset 0 0 8px #f8a7a3;
+    -moz-box-shadow: inset 0 0 8px #f8a7a3;
+}
+
+.beliebtheit-marktwert {
+     text-transform: none;
+     line-height: 27px;
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1179px) {
+    .beliebtheit-verein-index {
+        font-size: 20px;
+        line-height: 20px;
+        top: 60px;
+    }
+
+    .beliebtheit-verein-index-zahl {
+        font-size: 55px;
+        line-height: 55px;
+        top: 75px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1029px) {
+    .beliebtheit-verein-index {
+        font-size: 14px;
+        line-height: 14px;
+        top: 65px;
+    }
+
+    .beliebtheit-verein-index-zahl {
+        font-size: 40px;
+        line-height: 40px;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .beliebtheit-verein img {
+        left: 25%;
+        margin-left: -60px;
+    }
+    
+    .beliebtheit-verein .beliebtheit-person-vereinswappen img {
+        margin-left: 20px;
+    }
+    
+    .beliebtheit_filter .content {
+        height: initial;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 380px) {
+    .beliebtheit-verein-index {
+        width: 200px;
+        right: 25%;
+        margin-right: -100px;
+    }
+    
+    .beliebtheit-verein-index-zahl {        
+        width: 200px;
+        text-align: center;
+        right: 25%;
+        margin-right: -100px;
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    .beliebtheit-verein-index {
+        font-size: 20px;
+        line-height: 20px;
+        top: 60px;
+    }
+    
+    .beliebtheit-verein-index-zahl {
+        font-size: 55px;
+        line-height: 55px;
+        top: 75px;
+    }
+}

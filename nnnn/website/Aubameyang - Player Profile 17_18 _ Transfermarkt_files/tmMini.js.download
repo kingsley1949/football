@@ -1,0 +1,101 @@
+Highcharts.setOptions({
+		lang: {
+			resetZoom: 'Vollansicht',
+			resetZoomTitle: 'Vollansicht',
+		}
+	});
+
+Highcharts.theme = {
+   colors: ["#314f77", "#003555", "#749f18", "#b80718","#585859",'#FF9900','#13807F','#003066'],
+   chart: {
+      className: 'tmMini',
+      borderWidth: 0,
+      plotBackgroundColor: '#fff',
+      plotBorderColor: '#fff',
+      plotShadow: false,
+      plotBorderWidth: 0,
+      spacingLeft: 0,
+      spacingTop: 0,
+      spacingBottom: 0,
+      resetZoomButton: {
+          theme: {
+              fill: '#fff',
+              stroke: '#fff',
+              r: 0,
+              states: {
+                  hover: {
+                      fill: '#314f77',
+                      style: {
+                          color: 'white'
+                      }
+                  }
+              }
+          }
+      }
+   },
+   title: {
+      style: { 
+         color: '#585859',
+         font: '12px Source Sans Pro, sans-serif'
+      }
+   },
+   subtitle: {
+      style: { 
+         color: '#585859',
+         font: '10px Source Sans Pro, sans-serif'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#585859',
+            fontWeight: 'normal',
+            font: '11px Source Sans Pro, sans-serif'
+         }
+      },
+      title: {
+         style: {
+            color: '#585859',
+            font: '10px Source Sans Pro, sans-serif'
+         }            
+      }
+   },
+   yAxis: {
+	 
+      labels: {
+         style: {
+            color: '#585859',
+            font: '11px Source Sans Pro, sans-serif'
+         }
+      },
+      title: {
+         style: {
+            color: '#585859',
+            font: '10px Source Sans Pro, sans-serif'
+         }            
+      }
+   },
+   legend: {
+	   borderRadius: 0,
+	   borderColor: '#e4e4e4',
+	   backgroundColor: '#f9f9f9',
+	   itemStyle: {
+         font: '11px Source Sans Pro, sans-serif',
+         color: '#585859'
+      },
+      itemHoverStyle: {
+         color: '#585859'
+      },
+      itemHiddenStyle: {
+         color: '#cccccc'
+      }
+   },
+   labels: {
+      style: {
+         color: '#585859'
+      }
+   }
+};
+
+// Apply the theme
+var highchartsOptions = Highcharts.setOptions(Highcharts.theme);
