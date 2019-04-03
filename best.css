@@ -77,11 +77,11 @@ body{
       
 
  .liveside{
-            width: 10%;
-            height: 15000;
-            position: absolute;
-            left:10%;
-            background-color: white;
+        width: 10%;
+        height: 15000;
+        position: absolute;
+        left:10%;
+        background-color: white;
             
             
         }
@@ -275,7 +275,7 @@ button{
 .nav ul {
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     font-weight: bold;
     background-color:darkblue;
@@ -291,7 +291,7 @@ button{
     color: white;
     text-align: center;
 	font-size: 12px;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-family: arial black
     
@@ -311,7 +311,7 @@ button{
 
 #container .rightbar{
    width:12.5%;
-    height:2450px;
+    height:1750px;
     float: right;
     position: relative;
     top: -398px;
@@ -320,7 +320,7 @@ button{
 }
 #container .leftbar{
    width: 10%;
-    height:2549px;
+    height:1749px;
     position: absolute;
     top: 100px;
     background-color:white;
@@ -330,7 +330,7 @@ button{
 
 #container .mainbody{
    width: 75%;
-    height: 2152px;
+    height: 1352px;
     margin: 0 auto;
     margin-top: -32px;
     background-color: white;
@@ -487,7 +487,9 @@ marquee{
 
 
 @media screen and (max-width: 768px) {
-    /* For mobile phones: */ 
+    /*
+	
+	For mobile phones: */ 
     
     body{
     width: 100%;
@@ -713,16 +715,16 @@ marquee{
 
 #container .rightbar{
    width:10%;
-    height:0;
+    height:auto;
     float: right;
     position: relative;
     top:-100px;
-    background-color: white;
+    background-color: black
     
 }
 #container .leftbar{
    width: 10%;
-    height: 0;
+    height:auto;
     position: absolute;
     top: 55px;
     margin-top: auto;
@@ -732,7 +734,7 @@ marquee{
    
 #container .mainbody{
    width: 80%;
-    height:1000px;
+    height:auto;
     margin: 0 auto;
     margin-top: -26px;
     background-color:white;
@@ -882,11 +884,21 @@ tr:nth-child(even){background-color: #f2f2f2}
 
 @media screen and (max-width: 1070px) and (min-width: 770px) {
     /* Foriphones and tablets: */  
+	
+	   
+    body{
+    width: 100%;
+	height:auto;
+    margin: auto;
+    background-color: white;
+
+}
+
+	
     #container{
    width:90%;
-    height:80%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 0;
   
 }
 
@@ -898,7 +910,7 @@ tr:nth-child(even){background-color: #f2f2f2}
     background-color:#333366;
     text-align:center;
     font-size:11px;
-   font-family:cursive,fantasy,serif
+ 
 }
     .header img{
         width: 50px;
@@ -1010,16 +1022,42 @@ tr:nth-child(even){background-color: #f2f2f2}
     .nav{
         width: 100%;
     }
+	.nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+	padding-top: 15px;
+    overflow: hidden;
+    font-weight: bold;
+    background-color:darkblue;
+}
     
      
     #container .leftbar{
    width: 12%;
-    height:2062px;
+    height:auto;
     position: absolute;
     top:78px;
     background-color: white;
   
         
+}
+#container .rightbar{
+   width:12.5%;
+    height:auto;
+    float: right;
+    position: relative;
+    top: -398px;
+    background-color:white;
+    
+}	
+
+
+.leftbar-img img{
+ width: 100%;
+position: relative;
+	top: -135px;
+	 
 }
  
     .leftbar ul {
@@ -1044,7 +1082,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 }
  #container .mainbody{
    width: 75%;
-    height: 1661px;
+    height: auto;
     margin: 0 auto;
     margin-top:-30px;
     background-color: white
@@ -1057,15 +1095,15 @@ tr:nth-child(even){background-color: #f2f2f2}
 }
      .mainbody h4{
          font-size:10px;
-         background-color: red;
+         background-color: darkblue;
          color: white;
          text-align: center;
          margin-top:2px;
 }
     .mainbody table td i{
-   background-color:green;
+   background-color:lightgray;
     padding:7px 14px;
-    color: white;
+    color: black;
 }
 
     
@@ -1075,7 +1113,6 @@ table {
     width: 100%;
 	background-color:#c0c0c0;
     font-size: 8px;
-    font-family:impact,cursive,serif;
     font-weight: bold;
 } 
     
