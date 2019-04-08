@@ -971,7 +971,7 @@ tr:nth-child(even){background-color: #f2f2f2}
     
         iframe{
             width: 80%;
-              position: absolute;
+            position: absolute;
             left:10%;                 
 
         }
@@ -1173,12 +1173,7 @@ table {
     color: black;
 }
 
-    .coniframe{
-   display: none;
-}
-.coniframe iframe{
-  display: none;
-}
+ 
     .goodluck h4{
       
     }
